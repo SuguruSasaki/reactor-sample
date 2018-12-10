@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0112E52021AD7F8E00FC35F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012836F621AD2D2F00CEA387 /* AppDelegate.swift */; };
 		012836F721AD2D2F00CEA387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012836F621AD2D2F00CEA387 /* AppDelegate.swift */; };
-		012836F921AD2D2F00CEA387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012836F821AD2D2F00CEA387 /* ViewController.swift */; };
-		012836FC21AD2D2F00CEA387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012836FA21AD2D2F00CEA387 /* Main.storyboard */; };
 		012836FE21AD2D3000CEA387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012836FD21AD2D3000CEA387 /* Assets.xcassets */; };
 		0128370121AD2D3000CEA387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012836FF21AD2D3000CEA387 /* LaunchScreen.storyboard */; };
 		0128370C21AD2D3000CEA387 /* ReactorSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0128370B21AD2D3000CEA387 /* ReactorSampleTests.swift */; };
 		0128371721AD2D3000CEA387 /* ReactorSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0128371621AD2D3000CEA387 /* ReactorSampleUITests.swift */; };
+		019B056021BE36F00036CE60 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B055F21BE36F00036CE60 /* RootViewController.swift */; };
+		019B056421BE38BD0036CE60 /* RootReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B056321BE38BD0036CE60 /* RootReactor.swift */; };
+		019B056621BE39620036CE60 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B056521BE39620036CE60 /* RootRouter.swift */; };
+		019B056821BE3AE90036CE60 /* RootConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B056721BE3AE90036CE60 /* RootConfigure.swift */; };
+		01C75FCC21AF042B00AF9379 /* ServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FCB21AF042B00AF9379 /* ServiceTest.swift */; };
+		01C75FD021B629DB00AF9379 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FCF21B629DB00AF9379 /* LoginRepository.swift */; };
+		01C75FD221B62ABE00AF9379 /* LoginAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD121B62ABE00AF9379 /* LoginAPIStore.swift */; };
+		01C75FD421B62AD500AF9379 /* LoginDBStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD321B62AD500AF9379 /* LoginDBStore.swift */; };
+		01C75FD921B62CAF00AF9379 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD821B62CAF00AF9379 /* LoginService.swift */; };
+		01C75FDD21B62D0D00AF9379 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FDC21B62D0D00AF9379 /* LoginViewController.swift */; };
+		01C75FE021B62D3000AF9379 /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FDF21B62D3000AF9379 /* LoginReactor.swift */; };
+		01C75FE221B62DBC00AF9379 /* LoginConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE121B62DBC00AF9379 /* LoginConfigure.swift */; };
+		01C75FE521B62E0300AF9379 /* Configable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE421B62E0300AF9379 /* Configable.swift */; };
+		01C75FE721B632BB00AF9379 /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE621B632BB00AF9379 /* LoginEntity.swift */; };
+		01C75FEC21B6353800AF9379 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FEB21B6353800AF9379 /* LoginRouter.swift */; };
+		01C75FED21B6580600AF9379 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FDC21B62D0D00AF9379 /* LoginViewController.swift */; };
+		01C75FEE21B6581F00AF9379 /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FDF21B62D3000AF9379 /* LoginReactor.swift */; };
+		01C75FEF21B6582100AF9379 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FEB21B6353800AF9379 /* LoginRouter.swift */; };
+		01C75FF021B6582500AF9379 /* LoginConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE121B62DBC00AF9379 /* LoginConfigure.swift */; };
+		01C75FF121B6583600AF9379 /* Configable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE421B62E0300AF9379 /* Configable.swift */; };
+		01C75FF221B6584800AF9379 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FCF21B629DB00AF9379 /* LoginRepository.swift */; };
+		01C75FF321B6584A00AF9379 /* LoginAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD121B62ABE00AF9379 /* LoginAPIStore.swift */; };
+		01C75FF421B6584C00AF9379 /* LoginDBStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD321B62AD500AF9379 /* LoginDBStore.swift */; };
+		01C75FF621B6585000AF9379 /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FE621B632BB00AF9379 /* LoginEntity.swift */; };
+		01C75FF821B6585600AF9379 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FD821B62CAF00AF9379 /* LoginService.swift */; };
+		01C75FFA21B65D5700AF9379 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FF921B65D5700AF9379 /* Routable.swift */; };
+		01C75FFB21B65D7300AF9379 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FF921B65D5700AF9379 /* Routable.swift */; };
+		01C75FFD21B6602000AF9379 /* LoginMockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FFC21B6602000AF9379 /* LoginMockStore.swift */; };
+		01C75FFF21B6606600AF9379 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FFE21B6606600AF9379 /* LoginTest.swift */; };
+		01C7600021B6610800AF9379 /* LoginMockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C75FFC21B6602000AF9379 /* LoginMockStore.swift */; };
+		9B2BD7B8D0AD20DE532E9D1B /* Pods_ReactorSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B154F59649605698F3DC4086 /* Pods_ReactorSampleTests.framework */; };
+		C584D2C81B847B3B561CBD58 /* Pods_ReactorSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED07D570E246A1E6E257CF /* Pods_ReactorSample.framework */; };
+		D0E8171CA0329DBF79CA1482 /* Pods_ReactorSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3717110C8B655B1515D8BC43 /* Pods_ReactorSampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +66,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0112E52321AD7FFE00FC35F6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E52521AD7FFE00FC35F6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E52721AD804D00FC35F6 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E52921AD809200FC35F6 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E52B21AD809200FC35F6 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53221AD81A100FC35F6 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53421AD81A100FC35F6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53621AD81A100FC35F6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53821AD82F800FC35F6 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53A21AD82F800FC35F6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53C21AD82F800FC35F6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E53E21AD838300FC35F6 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E54021AD838300FC35F6 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E54221AD838300FC35F6 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E54421AD838300FC35F6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112E54621AD838300FC35F6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		012836F321AD2D2F00CEA387 /* ReactorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012836F621AD2D2F00CEA387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		012836F821AD2D2F00CEA387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		012836FB21AD2D2F00CEA387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		012836FD21AD2D3000CEA387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0128370021AD2D3000CEA387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0128370221AD2D3000CEA387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +93,33 @@
 		0128371221AD2D3000CEA387 /* ReactorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0128371621AD2D3000CEA387 /* ReactorSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorSampleUITests.swift; sourceTree = "<group>"; };
 		0128371821AD2D3000CEA387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019B055F21BE36F00036CE60 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		019B056321BE38BD0036CE60 /* RootReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootReactor.swift; sourceTree = "<group>"; };
+		019B056521BE39620036CE60 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		019B056721BE3AE90036CE60 /* RootConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootConfigure.swift; sourceTree = "<group>"; };
+		01C75FCB21AF042B00AF9379 /* ServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTest.swift; sourceTree = "<group>"; };
+		01C75FCF21B629DB00AF9379 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		01C75FD121B62ABE00AF9379 /* LoginAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIStore.swift; sourceTree = "<group>"; };
+		01C75FD321B62AD500AF9379 /* LoginDBStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDBStore.swift; sourceTree = "<group>"; };
+		01C75FD821B62CAF00AF9379 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		01C75FDC21B62D0D00AF9379 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01C75FDF21B62D3000AF9379 /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
+		01C75FE121B62DBC00AF9379 /* LoginConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigure.swift; sourceTree = "<group>"; };
+		01C75FE421B62E0300AF9379 /* Configable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configable.swift; sourceTree = "<group>"; };
+		01C75FE621B632BB00AF9379 /* LoginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		01C75FEB21B6353800AF9379 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		01C75FF921B65D5700AF9379 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		01C75FFC21B6602000AF9379 /* LoginMockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMockStore.swift; sourceTree = "<group>"; };
+		01C75FFE21B6606600AF9379 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		0A8E9C9E9E26911DF5BE8D35 /* Pods-ReactorSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSampleUITests/Pods-ReactorSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		304A848BAFF44687D504EC9C /* Pods-ReactorSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSampleUITests/Pods-ReactorSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3717110C8B655B1515D8BC43 /* Pods_ReactorSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F005C5656B783672A5B6EA /* Pods-ReactorSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSampleTests/Pods-ReactorSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B21D839E1A9F93B11D45CB4 /* Pods-ReactorSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSampleTests/Pods-ReactorSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		521144AFB79C757B6DE5A531 /* Pods-ReactorSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSample/Pods-ReactorSample.release.xcconfig"; sourceTree = "<group>"; };
+		73ED07D570E246A1E6E257CF /* Pods_ReactorSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B154F59649605698F3DC4086 /* Pods_ReactorSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B422590955E25BFBF36975ED /* Pods-ReactorSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorSample/Pods-ReactorSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C584D2C81B847B3B561CBD58 /* Pods_ReactorSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2BD7B8D0AD20DE532E9D1B /* Pods_ReactorSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +143,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E8171CA0329DBF79CA1482 /* Pods_ReactorSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0112E51E21AD797A00FC35F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FE321B62DF700AF9379 /* Protocols */,
+				01C75FCD21B629C100AF9379 /* Data */,
+				01C75FD721B62C9E00AF9379 /* Service */,
+				01C75FDA21B62CF700AF9379 /* Scenes */,
+				012836F621AD2D2F00CEA387 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0112E51F21AD79D000FC35F6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				012836FD21AD2D3000CEA387 /* Assets.xcassets */,
+				012836FF21AD2D3000CEA387 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		012836EA21AD2D2F00CEA387 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +178,8 @@
 				0128370A21AD2D3000CEA387 /* ReactorSampleTests */,
 				0128371521AD2D3000CEA387 /* ReactorSampleUITests */,
 				012836F421AD2D2F00CEA387 /* Products */,
+				534DCCA263504436CE954337 /* Pods */,
+				38DBF9182766D36F495E9A1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +196,8 @@
 		012836F521AD2D2F00CEA387 /* ReactorSample */ = {
 			isa = PBXGroup;
 			children = (
-				012836F621AD2D2F00CEA387 /* AppDelegate.swift */,
-				012836F821AD2D2F00CEA387 /* ViewController.swift */,
-				012836FA21AD2D2F00CEA387 /* Main.storyboard */,
-				012836FD21AD2D3000CEA387 /* Assets.xcassets */,
-				012836FF21AD2D3000CEA387 /* LaunchScreen.storyboard */,
+				0112E51F21AD79D000FC35F6 /* Assets */,
+				0112E51E21AD797A00FC35F6 /* Classes */,
 				0128370221AD2D3000CEA387 /* Info.plist */,
 			);
 			path = ReactorSample;
@@ -112,6 +208,8 @@
 			children = (
 				0128370B21AD2D3000CEA387 /* ReactorSampleTests.swift */,
 				0128370D21AD2D3000CEA387 /* Info.plist */,
+				01C75FCB21AF042B00AF9379 /* ServiceTest.swift */,
+				01C75FFE21B6606600AF9379 /* LoginTest.swift */,
 			);
 			path = ReactorSampleTests;
 			sourceTree = "<group>";
@@ -125,6 +223,145 @@
 			path = ReactorSampleUITests;
 			sourceTree = "<group>";
 		};
+		019B055E21BE36E10036CE60 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				019B056221BE36FA0036CE60 /* Router */,
+				019B056121BE36F40036CE60 /* Reactor */,
+				019B055F21BE36F00036CE60 /* RootViewController.swift */,
+				019B056721BE3AE90036CE60 /* RootConfigure.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		019B056121BE36F40036CE60 /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				019B056321BE38BD0036CE60 /* RootReactor.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		019B056221BE36FA0036CE60 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				019B056521BE39620036CE60 /* RootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		01C75FCD21B629C100AF9379 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FCE21B629C800AF9379 /* Login */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		01C75FCE21B629C800AF9379 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FCF21B629DB00AF9379 /* LoginRepository.swift */,
+				01C75FD121B62ABE00AF9379 /* LoginAPIStore.swift */,
+				01C75FD321B62AD500AF9379 /* LoginDBStore.swift */,
+				01C75FE621B632BB00AF9379 /* LoginEntity.swift */,
+				01C75FFC21B6602000AF9379 /* LoginMockStore.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		01C75FD721B62C9E00AF9379 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FD821B62CAF00AF9379 /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		01C75FDA21B62CF700AF9379 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				019B055E21BE36E10036CE60 /* Root */,
+				01C75FDB21B62D0100AF9379 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		01C75FDB21B62D0100AF9379 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FEA21B6353100AF9379 /* Router */,
+				01C75FDE21B62D2200AF9379 /* Reactor */,
+				01C75FDC21B62D0D00AF9379 /* LoginViewController.swift */,
+				01C75FE121B62DBC00AF9379 /* LoginConfigure.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		01C75FDE21B62D2200AF9379 /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FDF21B62D3000AF9379 /* LoginReactor.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		01C75FE321B62DF700AF9379 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FE421B62E0300AF9379 /* Configable.swift */,
+				01C75FF921B65D5700AF9379 /* Routable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		01C75FEA21B6353100AF9379 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				01C75FEB21B6353800AF9379 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		38DBF9182766D36F495E9A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0112E53E21AD838300FC35F6 /* Nimble.framework */,
+				0112E54021AD838300FC35F6 /* Quick.framework */,
+				0112E54221AD838300FC35F6 /* ReactorKit.framework */,
+				0112E54421AD838300FC35F6 /* RxCocoa.framework */,
+				0112E54621AD838300FC35F6 /* RxSwift.framework */,
+				0112E53821AD82F800FC35F6 /* ReactorKit.framework */,
+				0112E53A21AD82F800FC35F6 /* RxCocoa.framework */,
+				0112E53C21AD82F800FC35F6 /* RxSwift.framework */,
+				0112E53221AD81A100FC35F6 /* ReactorKit.framework */,
+				0112E53421AD81A100FC35F6 /* RxCocoa.framework */,
+				0112E53621AD81A100FC35F6 /* RxSwift.framework */,
+				0112E52921AD809200FC35F6 /* Nimble.framework */,
+				0112E52B21AD809200FC35F6 /* Quick.framework */,
+				0112E52721AD804D00FC35F6 /* ReactorKit.framework */,
+				0112E52321AD7FFE00FC35F6 /* RxCocoa.framework */,
+				0112E52521AD7FFE00FC35F6 /* RxSwift.framework */,
+				73ED07D570E246A1E6E257CF /* Pods_ReactorSample.framework */,
+				B154F59649605698F3DC4086 /* Pods_ReactorSampleTests.framework */,
+				3717110C8B655B1515D8BC43 /* Pods_ReactorSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		534DCCA263504436CE954337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B422590955E25BFBF36975ED /* Pods-ReactorSample.debug.xcconfig */,
+				521144AFB79C757B6DE5A531 /* Pods-ReactorSample.release.xcconfig */,
+				37F005C5656B783672A5B6EA /* Pods-ReactorSampleTests.debug.xcconfig */,
+				3B21D839E1A9F93B11D45CB4 /* Pods-ReactorSampleTests.release.xcconfig */,
+				304A848BAFF44687D504EC9C /* Pods-ReactorSampleUITests.debug.xcconfig */,
+				0A8E9C9E9E26911DF5BE8D35 /* Pods-ReactorSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0128371B21AD2D3000CEA387 /* Build configuration list for PBXNativeTarget "ReactorSample" */;
 			buildPhases = (
+				92FE6B54AA8AA58DE0ED716E /* [CP] Check Pods Manifest.lock */,
 				012836EF21AD2D2F00CEA387 /* Sources */,
 				012836F021AD2D2F00CEA387 /* Frameworks */,
 				012836F121AD2D2F00CEA387 /* Resources */,
+				900560D377290C9C44B6EAA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0128371E21AD2D3000CEA387 /* Build configuration list for PBXNativeTarget "ReactorSampleTests" */;
 			buildPhases = (
+				84FBA8592BE03A26E8F69794 /* [CP] Check Pods Manifest.lock */,
 				0128370321AD2D3000CEA387 /* Sources */,
 				0128370421AD2D3000CEA387 /* Frameworks */,
 				0128370521AD2D3000CEA387 /* Resources */,
+				EEE97D2E2963B44B088292D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +408,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0128372121AD2D3000CEA387 /* Build configuration list for PBXNativeTarget "ReactorSampleUITests" */;
 			buildPhases = (
+				0A5C1637444EA2C53E2A959D /* [CP] Check Pods Manifest.lock */,
 				0128370E21AD2D3000CEA387 /* Sources */,
 				0128370F21AD2D3000CEA387 /* Frameworks */,
 				0128371021AD2D3000CEA387 /* Resources */,
@@ -231,7 +473,6 @@
 			files = (
 				0128370121AD2D3000CEA387 /* LaunchScreen.storyboard in Resources */,
 				012836FE21AD2D3000CEA387 /* Assets.xcassets in Resources */,
-				012836FC21AD2D2F00CEA387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +492,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5C1637444EA2C53E2A959D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FBA8592BE03A26E8F69794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		900560D377290C9C44B6EAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorSample/Pods-ReactorSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxViewController/RxViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorSample/Pods-ReactorSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92FE6B54AA8AA58DE0ED716E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE97D2E2963B44B088292D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorSampleTests/Pods-ReactorSampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorSampleTests/Pods-ReactorSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		012836EF21AD2D2F00CEA387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012836F921AD2D2F00CEA387 /* ViewController.swift in Sources */,
+				01C75FDD21B62D0D00AF9379 /* LoginViewController.swift in Sources */,
+				019B056021BE36F00036CE60 /* RootViewController.swift in Sources */,
+				019B056621BE39620036CE60 /* RootRouter.swift in Sources */,
+				019B056821BE3AE90036CE60 /* RootConfigure.swift in Sources */,
+				01C75FE021B62D3000AF9379 /* LoginReactor.swift in Sources */,
+				01C75FFA21B65D5700AF9379 /* Routable.swift in Sources */,
+				019B056421BE38BD0036CE60 /* RootReactor.swift in Sources */,
+				01C75FD221B62ABE00AF9379 /* LoginAPIStore.swift in Sources */,
+				01C75FD021B629DB00AF9379 /* LoginRepository.swift in Sources */,
 				012836F721AD2D2F00CEA387 /* AppDelegate.swift in Sources */,
+				01C75FEC21B6353800AF9379 /* LoginRouter.swift in Sources */,
+				01C75FE221B62DBC00AF9379 /* LoginConfigure.swift in Sources */,
+				01C75FE521B62E0300AF9379 /* Configable.swift in Sources */,
+				01C75FD421B62AD500AF9379 /* LoginDBStore.swift in Sources */,
+				01C75FE721B632BB00AF9379 /* LoginEntity.swift in Sources */,
+				01C75FD921B62CAF00AF9379 /* LoginService.swift in Sources */,
+				01C75FFD21B6602000AF9379 /* LoginMockStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +642,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C75FF821B6585600AF9379 /* LoginService.swift in Sources */,
+				01C75FF021B6582500AF9379 /* LoginConfigure.swift in Sources */,
+				01C75FF421B6584C00AF9379 /* LoginDBStore.swift in Sources */,
+				01C75FED21B6580600AF9379 /* LoginViewController.swift in Sources */,
+				01C75FF321B6584A00AF9379 /* LoginAPIStore.swift in Sources */,
+				01C75FEE21B6581F00AF9379 /* LoginReactor.swift in Sources */,
+				01C75FF621B6585000AF9379 /* LoginEntity.swift in Sources */,
+				01C75FF121B6583600AF9379 /* Configable.swift in Sources */,
+				01C75FFB21B65D7300AF9379 /* Routable.swift in Sources */,
+				0112E52021AD7F8E00FC35F6 /* AppDelegate.swift in Sources */,
+				01C75FF221B6584800AF9379 /* LoginRepository.swift in Sources */,
+				01C75FCC21AF042B00AF9379 /* ServiceTest.swift in Sources */,
+				01C75FFF21B6606600AF9379 /* LoginTest.swift in Sources */,
+				01C7600021B6610800AF9379 /* LoginMockStore.swift in Sources */,
+				01C75FEF21B6582100AF9379 /* LoginRouter.swift in Sources */,
 				0128370C21AD2D3000CEA387 /* ReactorSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +685,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		012836FA21AD2D2F00CEA387 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012836FB21AD2D2F00CEA387 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		012836FF21AD2D3000CEA387 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +814,7 @@
 		};
 		0128371C21AD2D3000CEA387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B422590955E25BFBF36975ED /* Pods-ReactorSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +833,7 @@
 		};
 		0128371D21AD2D3000CEA387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521144AFB79C757B6DE5A531 /* Pods-ReactorSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +852,7 @@
 		};
 		0128371F21AD2D3000CEA387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F005C5656B783672A5B6EA /* Pods-ReactorSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +874,7 @@
 		};
 		0128372021AD2D3000CEA387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B21D839E1A9F93B11D45CB4 /* Pods-ReactorSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +896,7 @@
 		};
 		0128372221AD2D3000CEA387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304A848BAFF44687D504EC9C /* Pods-ReactorSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +917,7 @@
 		};
 		0128372321AD2D3000CEA387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8E9C9E9E26911DF5BE8D35 /* Pods-ReactorSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

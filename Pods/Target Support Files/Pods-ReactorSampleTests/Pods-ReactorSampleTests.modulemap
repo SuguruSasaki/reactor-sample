@@ -1,0 +1,6 @@
+framework module Pods_ReactorSampleTests {
+  umbrella header "Pods-ReactorSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
